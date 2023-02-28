@@ -26,7 +26,7 @@ namespace Draft_Simulator.FaBSet {
                     double rarityValue = random.NextDouble();
                     Rarity selected = distribution.Where(kv => kv.Value >= rarityValue).First().Key;
                     List<Card> possibleCards = GetPossibleCards(cards, composition.Key, selected);
-                    Card selectedCard = Card.CreateCopy(possibleCards[random.Next(possibleCards.Count)]);
+                    Card selectedCard = possibleCards[random.Next(possibleCards.Count)].DeepCopy();
                     selectedCard.Foil = composition.Key == CompositionType.Foil;
                     Cards.Add(selectedCard);
                 }
@@ -43,12 +43,21 @@ namespace Draft_Simulator.FaBSet {
             return possibleCards;
         }
 
+        public Card? RemoveToken() {
+            Card? tokenCard = Cards.Find(c => c.Rarity == Rarity.Token);
+            if(tokenCard != null) { Cards.Remove(tokenCard); }
+            return tokenCard;
+        }
+
+        public void Shuffle() {
+
+        }
+
         public override string ToString() {
             StringBuilder sb = new();
-            sb.AppendLine("Content of booster:");
-            foreach (Card card in Cards) {
-                sb.Append(" - ");
-                sb.AppendLine(card.ToString());
+            for(int i = 0; i < Cards.Count; i++) {
+                Card card = Cards[i];
+                sb.AppendLine($"{i + 1}) - {card.ToString()}");
             }
             return sb.ToString();
         }

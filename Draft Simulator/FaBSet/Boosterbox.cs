@@ -27,6 +27,17 @@ namespace Draft_Simulator.FaBSet {
             return sb.ToString();
         }
 
+        public List<IBoosterpack> Take(int numberOfBoosters) {
+            List<IBoosterpack> boosters = new();
+            Random random = new(DateTime.Now.Millisecond);
+            for(int i = 0; i < numberOfBoosters; i++) {
+                IBoosterpack booster = Boosterpacks[random.Next(Boosterpacks.Count)];
+                Boosterpacks.Remove(booster);
+                boosters.Add(booster);
+            }
+            return boosters;
+        }
+
         public List<IBoosterpack> Boosterpacks { get; set; }
     }
 }
