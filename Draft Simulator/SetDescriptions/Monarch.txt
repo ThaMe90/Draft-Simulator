@@ -1,0 +1,307 @@
+MON000; Great Library of Solana ; F; Landmark
+MON001; Prism, Sculptor of Arc Light ; T; Hero
+MON002; Prism ; T; Hero
+MON003; Luminaris ; M; Weapon
+MON004; Herald of Erudition ; M; Action
+MON005; Arc Light Sentinel ; M; Action
+MON006; Genesis ; M; Action
+MON007; Herald of Judgment (2); R; Action
+MON008; Herald of Triumph (1); R; Action
+MON009; Herald of Triumph (2); R; Action
+MON010; Herald of Triumph (3); R; Action
+MON011; Parable of Humility (2); R; Instant
+MON012; Merciful Retribution (2); R; Instant
+MON013; Ode to Wrath (2); R; Instant
+MON014; Herald of Protection (1); C; Action
+MON015; Herald of Protection (2); C; Action
+MON016; Herald of Protection (3); C; Action
+MON017; Herald of Ravages (1); C; Action
+MON018; Herald of Ravages (2); C; Action
+MON019; Herald of Ravages (3); C; Action
+MON020; Herald of Rebirth (1); C; Action
+MON021; Herald of Rebirth (2); C; Action
+MON022; Herald of Rebirth (3); C; Action
+MON023; Herald of Tenacity (1); C; Action
+MON024; Herald of Tenacity (2); C; Action
+MON025; Herald of Tenacity (3); C; Action
+MON026; Wartune Herald (1); C; Action
+MON027; Wartune Herald (2); C; Action
+MON028; Wartune Herald (3); C; Action
+MON029; Ser Boltyn, Breaker of Dawn ; T; Hero
+MON030; Boltyn ; T; Hero
+MON031; Raydn, Duskbane ; M; Weapon
+MON032; Bolting Blade ; M; Action
+MON033; Beacon of Victory ; M; Action
+MON034; Lumina Ascension ; M; Action
+MON035; V of the Vanguard (2); R; Action
+MON036; Battlefield Blitz (1); R; Action
+MON037; Battlefield Blitz (2); R; Action
+MON038; Battlefield Blitz (3); R; Action
+MON039; Valiant Thrust (1); R; Action
+MON040; Valiant Thrust (2); R; Action
+MON041; Valiant Thrust (3); R; Action
+MON042; Bolt of Courage (1); C; Action
+MON043; Bolt of Courage (2); C; Action
+MON044; Bolt of Courage (3); C; Action
+MON045; Cross the Line (1); C; Action
+MON046; Cross the Line (2); C; Action
+MON047; Cross the Line (3); C; Action
+MON048; Engulfing Light (1); C; Action
+MON049; Engulfing Light (2); C; Action
+MON050; Engulfing Light (3); C; Action
+MON051; Express Lightning (1); C; Action
+MON052; Express Lightning (2); C; Action
+MON053; Express Lightning (3); C; Action
+MON054; Take Flight (1); C; Action
+MON055; Take Flight (2); C; Action
+MON056; Take Flight (3); C; Action
+MON057; Courageous Steelhand (1); C; Action
+MON058; Courageous Steelhand (2); C; Action
+MON059; Courageous Steelhand (3); C; Action
+MON060; Vestige of Sol ; L; Equipment
+MON061; Halo of Illumination ; C; Equipment
+MON062; Celestial Cataclysm ; M; Action
+MON063; Soul Shield ; M; Action
+MON064; Soul Food ; M; Action
+MON065; Tome of Divinity ; M; Action
+MON066; Invigorating Light (1); R; Action
+MON067; Invigorating Light (2); R; Action
+MON068; Invigorating Light (3); R; Action
+MON069; Glisten (1); R; Action
+MON070; Glisten (2); R; Action
+MON071; Glisten (3); R; Action
+MON072; Illuminate (1); C; Action
+MON073; Illuminate (2); C; Action
+MON074; Illuminate (3); C; Action
+MON075; Impenetrable Belief (1); C; Action
+MON076; Impenetrable Belief (2); C; Action
+MON077; Impenetrable Belief (3); C; Action
+MON078; Rising Solartide (1); C; Action
+MON079; Rising Solartide (2); C; Action
+MON080; Rising Solartide (3); C; Action
+MON081; Seek Enlightenment (1); C; Action
+MON082; Seek Enlightenment (2); C; Action
+MON083; Seek Enlightenment (3); C; Action
+MON084; Blinding Beam (1); C; Action
+MON085; Blinding Beam (2); C; Action
+MON086; Blinding Beam (3); C; Action
+MON087; Ray of Hope (2); C; Action
+MON088; Iris of Reality ; T; Weapon
+MON089; Phantasmal Footsteps ; L; Equipment
+MON090; Dream Weavers ; C; Equipment
+MON091; Phantasmaclasm ; M; Action
+MON092; Prismatic Shield (1); R; Action
+MON093; Prismatic Shield (2); R; Action
+MON094; Prismatic Shield (3); R; Action
+MON095; Phantasmify (1); R; Action
+MON096; Phantasmify (2); R; Action
+MON097; Phantasmify (3); R; Action
+MON098; Enigma Chimera (1); C; Action
+MON099; Enigma Chimera (2); C; Action
+MON100; Enigma Chimera (3); C; Action
+MON101; Spears of Surreality (1); C; Action
+MON102; Spears of Surreality (2); C; Action
+MON103; Spears of Surreality (3); C; Action
+MON104; Spectral Shield ; T; Aura
+MON105; Hatchet of Body ; T; Weapon
+MON106; Hatchet of Mind ; T; Weapon
+MON107; Valiant Dynamo ; L; Equipment
+MON108; Gallantry Gold ; C; Equipment
+MON109; Spill Blood ; M; Action
+MON110; Dusk Path Pilgrimage (1); R; Action
+MON111; Dusk Path Pilgrimage (2); R; Action
+MON112; Dusk Path Pilgrimage (3); R; Action
+MON113; Plow Through (1); R; Action
+MON114; Plow Through (2); R; Action
+MON115; Plow Through (3); R; Action
+MON116; Second Swing (1); C; Action
+MON117; Second Swing (2); C; Action
+MON118; Second Swing (3); C; Action
+MON119; Levia, Shadowborn Abomination ; T; Hero
+MON120; Levia ; T; Hero
+MON121; Hexagore, the Death Hydra ; M; Weapon
+MON122; Hooves of the Shadowbeast ; C; Equipment
+MON123; Deep Rooted Evil ; M; Action
+MON124; Mark of the Beast ; M; Action
+MON125; Shadow of Blasmophet ; M; Action
+MON126; Endless Maw (1); R; Action
+MON127; Endless Maw (2); R; Action
+MON128; Endless Maw (3); R; Action
+MON129; Writhing Beast Hulk (1); R; Action
+MON130; Writhing Beast Hulk (2); R; Action
+MON131; Writhing Beast Hulk (3); R; Action
+MON132; Convulsions from the Bellows of Hell (1); R; Action
+MON133; Convulsions from the Bellows of Hell (2); R; Action
+MON134; Convulsions from the Bellows of Hell (3); R; Action
+MON135; Boneyard Marauder (1); C; Action
+MON136; Boneyard Marauder (2); C; Action
+MON137; Boneyard Marauder (3); C; Action
+MON138; Deadwood Rumbler (1); C; Action
+MON139; Deadwood Rumbler (2); C; Action
+MON140; Deadwood Rumbler (3); C; Action
+MON141; Dread Screamer (1); C; Action
+MON142; Dread Screamer (2); C; Action
+MON143; Dread Screamer (3); C; Action
+MON144; Graveling Growl (1); C; Action
+MON145; Graveling Growl (2); C; Action
+MON146; Graveling Growl (3); C; Action
+MON147; Hungering Slaughterbeast (1); C; Action
+MON148; Hungering Slaughterbeast (2); C; Action
+MON149; Hungering Slaughterbeast (3); C; Action
+MON150; Unworldly Bellow (1); C; Action
+MON151; Unworldly Bellow (2); C; Action
+MON152; Unworldly Bellow (3); C; Action
+MON153; Chane, Bound by Shadow ; T; Hero
+MON154; Chane ; T; Hero
+MON155; Galaxxi Black ; T; Weapon
+MON156; Shadow of Ursur ; M; Action
+MON157; Dimenxxional Crossroads ; M; Action
+MON158; Invert Existence ; M; Action
+MON159; Unhallowed Rites (1); R; Action
+MON160; Unhallowed Rites (2); R; Action
+MON161; Unhallowed Rites (3); R; Action
+MON162; Dimenxxional Gateway (1); R; Action
+MON163; Dimenxxional Gateway (2); R; Action
+MON164; Dimenxxional Gateway (3); R; Action
+MON165; Seeping Shadows (1); R; Action
+MON166; Seeping Shadows (2); R; Action
+MON167; Seeping Shadows (3); R; Action
+MON168; Bounding Demigon (1); C; Action
+MON169; Bounding Demigon (2); C; Action
+MON170; Bounding Demigon (3); C; Action
+MON171; Piercing Shadow Vise (1); C; Action
+MON172; Piercing Shadow Vise (2); C; Action
+MON173; Piercing Shadow Vise (3); C; Action
+MON174; Rift Bind (1); C; Action
+MON175; Rift Bind (2); C; Action
+MON176; Rift Bind (3); C; Action
+MON177; Rifted Torment (1); C; Action
+MON178; Rifted Torment (2); C; Action
+MON179; Rifted Torment (3); C; Action
+MON180; Rip Through Reality (1); C; Action
+MON181; Rip Through Reality (2); C; Action
+MON182; Rip Through Reality (3); C; Action
+MON183; Seeds of Agony (1); C; Action
+MON184; Seeds of Agony (2); C; Action
+MON185; Seeds of Agony (3); C; Action
+MON186; Soul Shackle ; C; Aura
+MON187; Carrion Husk ; L; Equipment
+MON188; Ebon Fold ; C; Equipment
+MON189; Doomsday ; L; Action
+MON190; Eclipse ; L; Action
+MON191; Mutated Mass ; M; Action
+MON192; Guardian of the Shadowrealm ; M; Action
+MON193; Shadow Puppetry ; M; Action
+MON194; Tome of Torment ; M; Action
+MON195; Consuming Aftermath (1); R; Action
+MON196; Consuming Aftermath (2); R; Action
+MON197; Consuming Aftermath (3); R; Action
+MON198; Soul Harvest (3); R; Action
+MON199; Soul Reaping (1); R; Action
+MON200; Howl From Beyond (1); R; Action
+MON201; Howl From Beyond (2); R; Action
+MON202; Howl From Beyond (3); R; Action
+MON203; Ghostly Visit (1); C; Action
+MON204; Ghostly Visit (2); C; Action
+MON205; Ghostly Visit (3); C; Action
+MON206; Lunartide Plunderer (1); C; Action
+MON207; Lunartide Plunderer (2); C; Action
+MON208; Lunartide Plunderer (3); C; Action
+MON209; Void Wraith (1); C; Action
+MON210; Void Wraith (2); C; Action
+MON211; Void Wraith (3); C; Action
+MON212; Spew Shadow (1); C; Action
+MON213; Spew Shadow (2); C; Action
+MON214; Spew Shadow (3); C; Action
+MON215; Blood Tribute (1); C; Action
+MON216; Blood Tribute (2); C; Action
+MON217; Blood Tribute (3); C; Action
+MON218; Eclipse Existence (3); C; Action
+MON219; Blasmophet, the Soul Harvester ; T; Ally
+MON220; Ursur, the Soul Reaper ; T; Ally
+MON221; Ravenous Meataxe ; T; Weapon
+MON222; Tear Limb From Limb ; M; Action
+MON223; Pulping (1); R; Action
+MON224; Pulping (2); R; Action
+MON225; Pulping (3); R; Action
+MON226; Smash With Big Tree (1); C; Action
+MON227; Smash With Big Tree (2); C; Action
+MON228; Smash With Big Tree (3); C; Action
+MON229; Dread Scythe ; M; Weapon
+MON230; Aether Ironweave ; C; Equipment
+MON231; Sonata Arcanix ; M; Action
+MON232; Vexing Malice (1); R; Action
+MON233; Vexing Malice (2); R; Action
+MON234; Vexing Malice (3); R; Action
+MON235; Arcanic Crackle (1); C; Action
+MON236; Arcanic Crackle (2); C; Action
+MON237; Arcanic Crackle (3); C; Action
+MON238; Blood Drop Brocade ; C; Equipment
+MON239; Stubby Hammerers ; C; Equipment
+MON240; Time Skippers ; C; Equipment
+MON241; Ironhide Helm ; C; Equipment
+MON242; Ironhide Plate ; C; Equipment
+MON243; Ironhide Gauntlet ; C; Equipment
+MON244; Ironhide Legs ; C; Equipment
+MON245; Exude Confidence ; M; Action
+MON246; Nourishing Emptiness ; M; Action
+MON247; Rouse the Ancients ; M; Action
+MON248; Out Muscle (1); R; Action
+MON249; Out Muscle (2); R; Action
+MON250; Out Muscle (3); R; Action
+MON251; Seek Horizon (1); R; Action
+MON252; Seek Horizon (2); R; Action
+MON253; Seek Horizon (3); R; Action
+MON254; Tremor of íArathael (1); R; Action
+MON255; Tremor of íArathael (2); R; Action
+MON256; Tremor of íArathael (3); R; Action
+MON257; Rise Above (1); R; Action
+MON258; Rise Above (2); R; Action
+MON259; Rise Above (3); R; Action
+MON260; Captain's Call (1); R; Action
+MON261; Captain's Call (2); R; Action
+MON262; Captain's Call (3); R; Action
+MON263; Adrenaline Rush (1); C; Action
+MON264; Adrenaline Rush (2); C; Action
+MON265; Adrenaline Rush (3); C; Action
+MON266; Belittle (1); C; Action
+MON267; Belittle (2); C; Action
+MON268; Belittle (3); C; Action
+MON269; Brandish (1); C; Action
+MON270; Brandish (2); C; Action
+MON271; Brandish (3); C; Action
+MON272; Frontline Scout (1); C; Action
+MON273; Frontline Scout (2); C; Action
+MON274; Frontline Scout (3); C; Action
+MON275; Overload (1); C; Action
+MON276; Overload (2); C; Action
+MON277; Overload (3); C; Action
+MON278; Pound for Pound (1); C; Action
+MON279; Pound for Pound (2); C; Action
+MON280; Pound for Pound (3); C; Action
+MON281; Rally the Rearguard (1); C; Action
+MON282; Rally the Rearguard (2); C; Action
+MON283; Rally the Rearguard (3); C; Action
+MON284; Stony Woottonhog (1); C; Action
+MON285; Stony Woottonhog (2); C; Action
+MON286; Stony Woottonhog (3); C; Action
+MON287; Surging Militia (1); C; Action
+MON288; Surging Militia (2); C; Action
+MON289; Surging Militia (3); C; Action
+MON290; Yinti Yanti (1); C; Action
+MON291; Yinti Yanti (2); C; Action
+MON292; Yinti Yanti (3); C; Action
+MON293; Zealous Belting (1); C; Action
+MON294; Zealous Belting (2); C; Action
+MON295; Zealous Belting (3); C; Action
+MON296; Minnowism (1); C; Action
+MON297; Minnowism (2); C; Action
+MON298; Minnowism (3); C; Action
+MON299; Warmonger's Recital (1); C; Action
+MON300; Warmonger's Recital (2); C; Action
+MON301; Warmonger's Recital (3); C; Action
+MON302; Talisman of Dousing ; C; Item
+MON303; Memorial Ground (1); C; Action
+MON304; Memorial Ground (2); C; Action
+MON305; Memorial Ground (3); C; Action
+MON306; Cracked Bauble ; C; Resource
