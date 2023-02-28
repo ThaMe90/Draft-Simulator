@@ -1,7 +1,5 @@
-﻿namespace Draft_Simulator.FaBSet.Enums
-{
-    internal enum CompositionType
-    {
+﻿namespace Draft_Simulator.FaBSet.Enums {
+    internal enum CompositionType {
         Token,
         Common,
         Rare,
