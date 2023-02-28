@@ -46,7 +46,7 @@ namespace Draft_Simulator.FaBSet {
                     // Includes regular Common & CommonEquipment odds.
                     { Rarity.Common, 0.842 },
                     { Rarity.Rare, 0.971 },
-                    // Includes SupeRare & Majestic odds.
+                    // Includes SuperRare & Majestic odds.
                     { Rarity.Majestic, 0.989 },
                     { Rarity.Legendary, 0.999 },
                     { Rarity.Fabled, 1 },
