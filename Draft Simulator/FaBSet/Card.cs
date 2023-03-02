@@ -3,15 +3,16 @@ using Draft_Simulator.FaBSet.Interfaces;
 
 namespace Draft_Simulator.FaBSet {
     internal class Card : ICard, IComparable<Card> {
-        public static Card CreateCard(string name, Rarity rarity, CardType type, string number) {
-            return new Card(name, rarity, type, number);
+        public static Card CreateCard(string name, Rarity rarity, CardType type, string number, bool firstEdition) {
+            return new Card(name, rarity, type, number, firstEdition);
         }
 
-        private Card(string name, Rarity rarity, CardType type, string number) {
+        private Card(string name, Rarity rarity, CardType type, string number, bool firstEdition) {
             this.Name = name.Trim();
             this.Rarity = rarity;
             this.Number = number;
             this.Type = type;
+            this.FirstEdition = firstEdition;
         }
 
         public override string ToString() {
@@ -19,7 +20,13 @@ namespace Draft_Simulator.FaBSet {
         }
 
         private string GetFoilText() {
-            return Foil ? "Foil " : "";
+            if(Foil) {
+                if(FirstEdition && (Rarity == Rarity.Legendary || (Rarity == Rarity.Common && Type == CardType.Equipment))) {
+                    return "(CF) ";
+                }
+                return "(F) ";
+            }
+            return string.Empty;
         }
 
         public int CompareTo(Card? other) {
@@ -33,6 +40,7 @@ namespace Draft_Simulator.FaBSet {
         public CardType Type { get; private set; }
         public string Number { get; private set; }
         public bool Foil { get; set; } = false;
+        public bool FirstEdition { get; private set; }
     }
 
     internal static class CardExtensions {
