@@ -8,10 +8,16 @@
     <Nullable>enable</Nullable>
     <StartupObject>Draft_Simulator.Program</StartupObject>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>Resources\FaB.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="SetDescriptions\Monarch.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\FaB.ico" />
   </ItemGroup>
 
   <ItemGroup>
