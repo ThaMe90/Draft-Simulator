@@ -55,21 +55,21 @@ MON053; Express Lightning (3); C; Action
 MON054; Take Flight (1); C; Action
 MON055; Take Flight (2); C; Action
 MON056; Take Flight (3); C; Action
-MON057; Courageous Steelhand (1); C; Action
-MON058; Courageous Steelhand (2); C; Action
-MON059; Courageous Steelhand (3); C; Action
+MON057; Courageous Steelhand (1); C; AttackReaction
+MON058; Courageous Steelhand (2); C; AttackReaction
+MON059; Courageous Steelhand (3); C; AttackReaction
 MON060; Vestige of Sol ; L; Equipment
 MON061; Halo of Illumination ; C; Equipment
 MON062; Celestial Cataclysm ; M; Action
-MON063; Soul Shield ; M; Action
+MON063; Soul Shield ; M; DefenseReaction
 MON064; Soul Food ; M; Action
-MON065; Tome of Divinity ; M; Action
+MON065; Tome of Divinity ; M; Instant
 MON066; Invigorating Light (1); R; Action
 MON067; Invigorating Light (2); R; Action
 MON068; Invigorating Light (3); R; Action
-MON069; Glisten (1); R; Action
-MON070; Glisten (2); R; Action
-MON071; Glisten (3); R; Action
+MON069; Glisten (1); R; Instant
+MON070; Glisten (2); R; Instant
+MON071; Glisten (3); R; Instant
 MON072; Illuminate (1); C; Action
 MON073; Illuminate (2); C; Action
 MON074; Illuminate (3); C; Action
@@ -82,17 +82,17 @@ MON080; Rising Solartide (3); C; Action
 MON081; Seek Enlightenment (1); C; Action
 MON082; Seek Enlightenment (2); C; Action
 MON083; Seek Enlightenment (3); C; Action
-MON084; Blinding Beam (1); C; Action
-MON085; Blinding Beam (2); C; Action
-MON086; Blinding Beam (3); C; Action
-MON087; Ray of Hope (2); C; Action
+MON084; Blinding Beam (1); C; Instant
+MON085; Blinding Beam (2); C; Instant
+MON086; Blinding Beam (3); C; Instant
+MON087; Ray of Hope (2); C; Instant
 MON088; Iris of Reality ; T; Weapon
 MON089; Phantasmal Footsteps ; L; Equipment
 MON090; Dream Weavers ; C; Equipment
 MON091; Phantasmaclasm ; M; Action
-MON092; Prismatic Shield (1); R; Action
-MON093; Prismatic Shield (2); R; Action
-MON094; Prismatic Shield (3); R; Action
+MON092; Prismatic Shield (1); R; Instant
+MON093; Prismatic Shield (2); R; Instant
+MON094; Prismatic Shield (3); R; Instant
 MON095; Phantasmify (1); R; Action
 MON096; Phantasmify (2); R; Action
 MON097; Phantasmify (3); R; Action
@@ -156,7 +156,7 @@ MON154; Chane ; T; Hero
 MON155; Galaxxi Black ; T; Weapon
 MON156; Shadow of Ursur ; M; Action
 MON157; Dimenxxional Crossroads ; M; Action
-MON158; Invert Existence ; M; Action
+MON158; Invert Existence ; M; Instant
 MON159; Unhallowed Rites (1); R; Action
 MON160; Unhallowed Rites (2); R; Action
 MON161; Unhallowed Rites (3); R; Action
@@ -187,10 +187,10 @@ MON185; Seeds of Agony (3); C; Action
 MON186; Soul Shackle ; C; Aura
 MON187; Carrion Husk ; L; Equipment
 MON188; Ebon Fold ; C; Equipment
-MON189; Doomsday ; L; Action
-MON190; Eclipse ; L; Action
+MON189; Doomsday ; L; Instant
+MON190; Eclipse ; L; Instant
 MON191; Mutated Mass ; M; Action
-MON192; Guardian of the Shadowrealm ; M; Action
+MON192; Guardian of the Shadowrealm ; M; DefenseReaction
 MON193; Shadow Puppetry ; M; Action
 MON194; Tome of Torment ; M; Action
 MON195; Consuming Aftermath (1); R; Action
@@ -213,10 +213,10 @@ MON211; Void Wraith (3); C; Action
 MON212; Spew Shadow (1); C; Action
 MON213; Spew Shadow (2); C; Action
 MON214; Spew Shadow (3); C; Action
-MON215; Blood Tribute (1); C; Action
-MON216; Blood Tribute (2); C; Action
-MON217; Blood Tribute (3); C; Action
-MON218; Eclipse Existence (3); C; Action
+MON215; Blood Tribute (1); C; Instant
+MON216; Blood Tribute (2); C; Instant
+MON217; Blood Tribute (3); C; Instant
+MON218; Eclipse Existence (3); C; Instant
 MON219; Blasmophet, the Soul Harvester ; T; Ally
 MON220; Ursur, the Soul Reaper ; T; Ally
 MON221; Ravenous Meataxe ; T; Weapon
@@ -255,9 +255,9 @@ MON253; Seek Horizon (3); R; Action
 MON254; Tremor of íArathael (1); R; Action
 MON255; Tremor of íArathael (2); R; Action
 MON256; Tremor of íArathael (3); R; Action
-MON257; Rise Above (1); R; Action
-MON258; Rise Above (2); R; Action
-MON259; Rise Above (3); R; Action
+MON257; Rise Above (1); R; DefenseReaction
+MON258; Rise Above (2); R; DefenseReaction
+MON259; Rise Above (3); R; DefenseReaction
 MON260; Captain's Call (1); R; Action
 MON261; Captain's Call (2); R; Action
 MON262; Captain's Call (3); R; Action
@@ -301,7 +301,7 @@ MON299; Warmonger's Recital (1); C; Action
 MON300; Warmonger's Recital (2); C; Action
 MON301; Warmonger's Recital (3); C; Action
 MON302; Talisman of Dousing ; C; Item
-MON303; Memorial Ground (1); C; Action
-MON304; Memorial Ground (2); C; Action
-MON305; Memorial Ground (3); C; Action
+MON303; Memorial Ground (1); C; Instant
+MON304; Memorial Ground (2); C; Instant
+MON305; Memorial Ground (3); C; Instant
 MON306; Cracked Bauble ; C; Resource

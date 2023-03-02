@@ -7,12 +7,13 @@ namespace Draft_Simulator.FaBSet {
     internal class Boosterpack : IBoosterpack {
         public const int CardsPerPack = 16;
 
-        public static IBoosterpack Generate(List<Card> cards, IBoosterpackComposition boosterpackComposition, Random random) {
-            return new Boosterpack(cards, boosterpackComposition, random);
+        public static IBoosterpack Generate(List<Card> cards, IBoosterpackComposition boosterpackComposition, bool firstEdition, Random random) {
+            return new Boosterpack(cards, boosterpackComposition, firstEdition, random);
         }
 
-        private Boosterpack(List<Card> cards, IBoosterpackComposition boosterpackComposition, Random random) {
-            Cards = new(CardsPerPack);
+        private Boosterpack(List<Card> cards, IBoosterpackComposition boosterpackComposition, bool firstEdition, Random random) {
+            this.Cards = new(CardsPerPack);
+            this.FirstEdition = firstEdition;
             SelectCardsInBooster(cards, boosterpackComposition, random);
         }
 
@@ -53,6 +54,8 @@ namespace Draft_Simulator.FaBSet {
             return sb.ToString();
         }
 
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; private set; }
+
+        public bool FirstEdition { get; private set; }
     }
 }
