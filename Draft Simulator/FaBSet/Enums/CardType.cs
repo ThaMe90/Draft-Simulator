@@ -5,6 +5,8 @@
         Weapon,
         Equipment,
         Action,
+        AttackReaction,
+        DefenseReaction,
         Instant,
         Aura,
         Ally,
