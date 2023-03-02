@@ -6,15 +6,16 @@ namespace Draft_Simulator.FaBSet {
     internal class Boosterbox : IBoosterbox {
         public const int NumberOfBoostersInBox = 24;
 
-        public static IBoosterbox Generate(List<Card> cards, IBoosterpackComposition boosterpackComposition) {
-            return new Boosterbox(cards, boosterpackComposition);
+        public static IBoosterbox Generate(List<Card> cards, IBoosterpackComposition boosterpackComposition, bool firstEdition) {
+            return new Boosterbox(cards, boosterpackComposition, firstEdition);
         }
 
-        private Boosterbox(List<Card> cards, IBoosterpackComposition boosterpackComposition) {
+        private Boosterbox(List<Card> cards, IBoosterpackComposition boosterpackComposition, bool firstEdition) {
             Random random = new(DateTime.Now.Millisecond);
-            Boosterpacks = new(NumberOfBoostersInBox);
+            this.Boosterpacks = new(NumberOfBoostersInBox);
+            this.FirstEdition = firstEdition;
             for (int i = 0; i < NumberOfBoostersInBox; i++) {
-                Boosterpacks.Add(Boosterpack.Generate(cards, boosterpackComposition, random));
+                Boosterpacks.Add(Boosterpack.Generate(cards, boosterpackComposition, firstEdition, random));
             }
         }
 
@@ -27,6 +28,8 @@ namespace Draft_Simulator.FaBSet {
             return sb.ToString();
         }
 
-        public List<IBoosterpack> Boosterpacks { get; set; }
+        public List<IBoosterpack> Boosterpacks { get; private set; }
+
+        public bool FirstEdition { get; private set; }
     }
 }
